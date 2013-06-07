@@ -40,3 +40,4 @@ There's no documentation for now except the docstrings, also take a look at test
 
 It _doesn't aim to be used in production_ (lack of authentification/encryption/file permissions are the main concern obviously). It's a project for my course of distributed systems at the Trinity College of Dublin.
 
+original author:[ALexis-D](https://github.com/Alexis-D/DFS)
