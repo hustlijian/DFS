@@ -140,4 +140,3 @@ _names = dict()
 #_names = shelve.open(_config['dbfile'])
 
 #atexit.register(lambda: _names.close())
-
