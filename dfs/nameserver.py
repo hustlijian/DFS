@@ -136,7 +136,8 @@ _config = {
 
 logging.info('Loading config file nameserver.dfs.json.')
 utils.load_config(_config, 'nameserver.dfs.json')
-_names = shelve.open(_config['dbfile'])
+_names = dict()
+#_names = shelve.open(_config['dbfile'])
 
-atexit.register(lambda: _names.close())
+#atexit.register(lambda: _names.close())
 
